@@ -1,2 +1,2 @@
 # Keras-LSTM-model-for-secondar-structure-prediction
-Keras LSTM model for secondary structure prediction
+To show proof of concept only considering sequences shorter than 32 amino acids. Also experiments suggest to apply a sliding overlapping window of size 3 to the input seqeunces. In the sense of NLP this artificially creates a corpus consisting of much more different words (>7000 different ngrams compared to 20 amino acids). There has been a lot of research in respresenting protein sequences as sentences of biological words
